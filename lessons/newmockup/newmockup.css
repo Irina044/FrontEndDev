@@ -1,0 +1,45 @@
+
+
+.main-container {
+background: olive;
+    height: 500px;
+    width: 900px;
+    display: flex;
+   flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+
+
+
+}
+
+.main-container > div  {
+
+font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid brown;
+    width: 25%;
+
+    }
+.main-container > div > .field-2 .field-3 .filed-4 .field-5 .filed-6 .field-7 .field-8 {
+
+
+}
+
+.main-container > .field-1 {
+    justify-content: flex-start ;
+
+
+
+
+
+
+}
+.main-container > .field-2 {
+    order: 1;
+
+
+}

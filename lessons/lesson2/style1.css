@@ -1,0 +1,54 @@
+h1 {
+    font-style: normal;
+    font-size: 40px;
+    color: #A52A2A;
+    margin-left: 100px;
+}
+
+h2 {
+    font-size: 10px;
+    color: blue;
+    margin-left: 100px;
+}
+
+#menu {
+    width: 960px;
+    height: 50px;
+
+}
+
+#menu ul li {
+    float: left;
+}
+
+header {
+    margin-top: 200px;
+}
+
+
+.search {
+    width: 200px;
+    text-align: left;
+    height: 550px;
+    border-radius: 10px;
+    border: 5px solid #180957;
+    margin: auto;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.submit {
+    margin: 200px;
+    text-align: right;
+}
+
+img#kids{
+    position: relative;
+    z-index: -1;
+}
+h2#moto_text{
+    position: relative;
+    z-index: 2;
+}
+
+

@@ -1,0 +1,42 @@
+#main-container {
+    background: white;
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.header, .menu, .slide-show, .flex-container {
+    width: 800px;
+    margin:0 auto;
+    background: white;
+
+}
+
+
+.header {
+    position: relative;
+    height: 30px;
+    border: 2px solid black;
+}
+ .menu, slide-show {
+     height: 200px;
+ }
+ .menu {
+     background: white;
+     border: 2px solid black;
+     float: left;
+     position: relative;
+     width: 350px;
+ }
+ .slide-show {
+     background: white;
+     border: 2px solid black;
+     float: right;
+     position: relative;
+     width: 450px;
+ }
+ .flex-container {
+
+ }
+

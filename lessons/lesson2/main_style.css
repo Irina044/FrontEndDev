@@ -1,0 +1,157 @@
+.header, .menu, .slide-show {
+    border: 2px solid #4b4e4f;
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 25px;
+    position: relative;
+    top: 20px;
+
+    background: #b7b7b7;
+}
+
+.menu {
+    height: 150px;
+    background: #eff5f7;
+}
+
+.slide-show {
+    border: 2px solid #4b4e4f;
+    height: 300px;
+    background: #f47cec;
+    position: relative;
+}
+
+h2#foresdale {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    color: #442f0f;
+}
+
+h4 {
+    margin: 2px;
+    padding-top: 0;
+    margin-left: 20px;
+    color: #94efe5;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+    padding-left: 0;
+    margin-top: 0;
+
+}
+
+li {
+    float: right;
+    margin-right: 10px;
+    padding: 15px;
+    margin-bottom: 200px;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+form {
+    float: right;
+    position: relative;
+    padding-right: 10px;
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+input#search-field {
+    height: 15px;
+    padding: 2px;
+    margin: 5px;
+    border: 2px solid #7BA7AB;
+}
+
+input#button {
+    background: #f4aa42;
+    border: 2px solid;
+}
+
+img#tree {
+    width: 150px;
+    height: 85px;
+    margin: 20px;
+    margin-top: 0;
+}
+
+img#kids {
+    height: 300px;
+    width: 760px;
+    position:absolute;
+    right: 0px;
+    z-index: 1;
+    background: linear-gradient ();
+
+
+}
+
+h2#moto_text{
+    ;
+    z-index: 2;
+    column-count: 1;
+    -webkit-column-width: 100px;
+    -moz-column-width: 100px;
+    column-width: 100px;
+    position: absolute;
+    margin: 40px;
+    padding: 20px;
+    margin-top: 20px;
+
+
+}
+
+.submit {
+    border: 2px solid red;
+    background: #e58b16;
+}
+
+.flex-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin: 0 auto;
+    width: 75%;
+    border: 2px solid black;
+}
+
+.flex-container > div {
+    align-items: center;
+    align-content: space-between;
+    flex-direction: column;
+    font-size: 18px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    width: 33%;
+
+
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+

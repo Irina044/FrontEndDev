@@ -1,0 +1,52 @@
+ body {
+ 	background-color: green;
+ }
+ h1{
+ 	margin-left: 20px;
+ }
+
+
+ .row-form {
+ 	margin-bottom: 8px
+ 	overflow: hidden;
+ 	color:#ccc; 
+ }
+
+ .main-form{
+ 	width:40%;
+ 	border:2px solid #802e00;
+ 	margin:0 auto;
+ }
+
+
+
+
+ .field  {
+ 	clear: all; 
+ 	//height: 19px;
+ 	text-align: left;
+ 	padding: 5px;
+ 	margin-top: 5px;
+ }
+
+ .input-label{
+ 	width:25%;
+ 	float: left;
+ 	text-align: right;
+ 	margin-right: 10px;
+ 	margin-top: 5px;
+ }
+
+ .input-field{
+ 	width:70%;
+ 	float: left;
+ 	margin-top: 5px;
+
+ }
+ .b1 {
+ 	background: green;
+ 	color: white;	
+ 	float: center;
+ }
+
+

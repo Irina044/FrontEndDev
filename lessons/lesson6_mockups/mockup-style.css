@@ -1,0 +1,44 @@
+body {
+    background: #a8c6fa;
+}
+
+#main-container {
+    width: 800px;
+    height: 650px;
+    margin: 0 auto;
+}
+/*Common background color*/
+#header, #right-side, #left-side, #center {
+    background: #2196f3;
+}
+
+#header {
+    width: 800px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#left-side, #right-side {
+    width: 200px;
+    height: 480px;
+}
+
+#left-side {
+    float: left;
+}
+
+#right-side {
+    float: right;
+}
+
+#center {
+    width: 380px;
+    height: 480px;
+    margin: 0 210px;
+}
+
+#footer {
+    width: 800px;
+    height: 50px;
+    margin-top: 10px;
+}
