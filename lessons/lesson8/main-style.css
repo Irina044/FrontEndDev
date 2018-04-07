@@ -1,0 +1,33 @@
+body{
+    background-color: blueviolet;
+}
+
+#main-block{
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap-reverse;*/
+    flex-flow: row wrap;
+    /*justify-content: center;*/
+    align-items: baseline;
+    /*align-content: ;*/
+    height: 500px;
+    background-color: cadetblue;
+}
+
+
+#main-block > div{
+    background-color: azure;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    width: 50px;
+    line-height: 50px;
+}
+
+#f-block{
+    height: 60px;
+}
+
+#for-block{
+    height: 80px;
+}
