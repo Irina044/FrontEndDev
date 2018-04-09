@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+
+}
+#header {
+    background-color: #616161;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
+}
+#nav-bar {
+    background-color: #404040 ;
+    display: flex;
+}
+
+#nav-bar a {
+    background-color:#404040 ;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#nav-bar a:hover{
+    background-color:#c0c0c0 ;
+    color: #404040;
+}
