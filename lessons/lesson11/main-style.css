@@ -15,7 +15,10 @@ body {
     background-color: #404040 ;
     display: flex;
     justify-content: center;
+
 }
+
+
 
 #nav-bar a {
     background-color:#404040 ;
@@ -34,6 +37,19 @@ body {
     flex-wrap: wrap;
     /*padding: 0 5px;*/
 }
+
+    .photo-column > div{
+        border: black solid 2px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 10px;
+        padding: 10px;
+    }
+    #container4 {
+
+        align-self: stretch;
+    }
+
 
 @media screen and ( max-width: 600px){
     #nav-bar {
