@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #container{
+            background-color: #180957;
+            height: 700px;
+            margin: 0 auto;
+            width: 1000px;
+
+            /*FOR GRID BOX*/
+            display: grid;
+            grid-template-columns : repeat(3, auto);
+            grid-template-rows: 30px 130px auto 30px 200px;
+            grid-template-areas:
+            "social-link social-link search-bar"
+            "logo nav-bar nav-bar"
+            "text-info photo photo"
+            "f-link s-link t-link"
+            "f-article s-article t-article";
+        }
+
+        #social-bar {
+            background-color: #802e00;
+            color: yellow;
+            font-size: 20px;
+            grid-area: social-link;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="social-bar">Some social link will be here</div>
+</div>
+
+</body>
+</html>
