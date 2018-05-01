@@ -7,7 +7,7 @@
         body {
             margin: 0;
         }
-        #container{
+        #container {
             background-color: #180957;
             height: 700px;
             margin: 0 auto;
@@ -15,27 +15,104 @@
 
             /*FOR GRID BOX*/
             display: grid;
-            grid-template-columns : repeat(3, auto);
-            grid-template-rows: 30px 130px auto 30px 200px;
-            grid-template-areas:
-            "social-link social-link search-bar"
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: 30px 130px auto 50px 350px;
+            grid-gap: 10px;
+            grid-template-areas: "social-link social-link search-bar"
             "logo nav-bar nav-bar"
             "text-info photo photo"
             "f-link s-link t-link"
-            "f-article s-article t-article";
+            "add-info add-info add-info"
         }
 
+
         #social-bar {
-            background-color: #802e00;
+            background-color: #333333;
             color: yellow;
             font-size: 20px;
             grid-area: social-link;
         }
+
+        #nav-bar {
+            background-color: #802e00;
+            color: blue;
+            font-size: 20px;
+            grid-area: nav-bar;
+
+        }
+        #photo {
+            background-color: #2196f3;
+            color: deeppink;
+            font-size: 20px;
+            grid-area: photo;
+        }
+        #search-bar {
+            grid-row: 1/2;
+            background-color: orange;
+        }
+        #text-info {
+            background-color: yellowgreen;
+
+        }
+        #logo {
+            grid-row: 2/3;
+            grid-column: 1/2;
+            background-color: #94efe5;
+            text-align: center;
+            padding: 20px;
+        }
+        #f-link {
+            background-color: #e58b16;
+            grid-auto-rows: ;
+
+
+        }
+        #s-link {
+            background-color: #e58b16;
+            grid-auto-rows: ;
+        }
+
+        #t-link {
+            background-color: #e58b16;
+
+        }
+
+
+        #add-info1 {
+            background-color: #A52A2A;
+        }
+        #add-info2 {
+            background-color: #bdf3dc;
+            text-align: center;
+            justify-content: center;
+            align-self: auto;
+        }
+
+
+        #add-info3 {
+            background-color: #616161;
+        }
+
+
+
     </style>
 </head>
 <body>
 <div id="container">
     <div id="social-bar">Some social link will be here</div>
+    <div id="search-bar">Some search will be here</div>
+    <div id="logo">Some logo will be here</div>
+    <div id="nav-bar">Some nav-bar will be here</div>
+    <div id="text-info">Some text will be here</div>
+    <div id="photo">Some photos will be here</div>
+    <div id="f-link">First link will be here</div>
+    <div id="s-link"> Second link will be here</div>
+    <div id="t-link"> Third link will be here</div>
+    <div id="add-info1">Some add info will be here</div>
+    <div id="add-info2">Some add info will be here</div>
+    <div id="add-info3"> Some add info will be here</div>
+    <div>11</div>
+
 </div>
 
 </body>
