@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #container {
+            background-color: green;
+            display: grid;
+            height: 650px;
+            margin: 0 auto;
+            width: 1000px;
+            grid-template-columns: 30% 70% ;
+            grid-template-rows: 50px 200px auto 50px;
+            grid-template-areas: "header header" "sidebar main-content" "extra-content extra-content"
+            "footer footer";
+            grid-gap: 10px;
+        }
+        #Header {
+         background-color: yellowgreen;
+            color: #2196f3;
+            font-size: 20px;
+            grid-area: header;
+            padding: 10px;
+            text-align: center;
+        }
+        #Main-content {
+            background-color: goldenrod;
+            color: green;
+            font-size: 20px;
+            grid-column: 1/2;
+            padding: 90px;
+            text-align: center;
+        }
+        #Main-content {
+            background-color: blue;
+            color: yellow;
+            grid-column: 2/3 ;
+            text-align: center;
+
+        }
+        #Extra-content {
+            background-color: yellow;
+            color: saddlebrown;
+            grid-column: 1/3;
+            padding: 150px;
+            text-align: center;
+
+        }
+        #Footer {
+            background-color: #bdf3dc;
+            color: #333333;
+            grid-column: 1/3;
+            padding: 10px;
+            text-align: center;
+        }
+
+
+
+    </style>
+    <div id="container">
+        <div id="Header">Header</div>
+        <div id="Main-content">Main-content</div>
+        <div id="Extra-content">Extra content</div>
+        <div id="Footer"> Footer</div>
+    </div>
+</head>
+<body>
+
+</body>
+</html>
