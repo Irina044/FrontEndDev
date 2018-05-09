@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+}
+#container {
+    height: 350px;
+    background: green;
+    display: grid;
+    grid-template-rows: 300px 50px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas: "logo  photo photo"
+    "link-1 link-2 link-3";
+    width: 1365px;
+}
+
+#logo {
+    grid-area: logo;
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-size: 30px;
+    color: white;
+    padding-top: 70px;
+    background: linear-gradient(to right, red , #cb84be);
+}
+
+#photo {
+    grid-area: photo;
+    grid-column: 2/4;
+}
+
+#kids {
+
+   height: 300px;
+    width: 1050px;
+}
+
+#link-1 {
+    background-color: #180957;
+    grid-area: link-1;
+    justify-self: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end:3 ;
+}
