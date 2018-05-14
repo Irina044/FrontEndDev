@@ -8,13 +8,14 @@ body {
     height: 350px;
     width: 100%;
     display: grid;
-    grid-template-rows: 300px 50px;
-    /*grid-template-columns: 400px auto auto;*/
+    grid-template-rows: 300px 50px 250px;
+    /*grid-template-columns: 400px auto auto 350px;*/
     grid-template-columns: repeat(3, 350px);
     /*grid-template-columns: repeat(3, auto);*/
     grid-template-areas:
             "logo photo photo"
-            "link-1 link-2 link-3";
+            "link-1 link-2 link-3"
+             "ad-info-1 ad-info-2 ad-info-3";
     justify-content: center;
 }
 
@@ -99,3 +100,40 @@ body {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
     background-color:#476e9e;
 }
+
+#ad-info-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: whitesmoke;
+    text-align: center;
+    grid-area: ad-info-1;
+}
+#ad-info-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    grid-area: ad-info-2;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#ad-info-3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    grid-area: ad-info-3;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+#p-1 {
+    color: green;
+}
+#p-2 {
+    color: orange;
+}
+#p-3 {
+    color: blue;
+}
+
