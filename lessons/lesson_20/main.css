@@ -1,0 +1,21 @@
+#nav-bar {
+    background-color: #1B98E0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#nav-bar a {
+    padding: 15px 10px;
+    display: block;
+    float: right;
+}
+
+#logo a {
+    float: left;
+}
+
+
+body {
+    margin: 0;
+}
