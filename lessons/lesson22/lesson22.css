@@ -1,0 +1,32 @@
+
+
+#container {
+    background-color: #4b4e4f;
+    height: 500px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.myButton {
+    background-color:#77b55a;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    border:1px solid #4b8f29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #5b8a3c;
+}
+.myButton:hover {
+    background-color:#72b352;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
