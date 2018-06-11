@@ -3,31 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="lesson22.css">
+    <script src="backChanger.js"></script>
+    <script src="messages.js"></script>
     <title>Title</title>
-
-    <script>
-        function setBackGreen() {
-            document.getElementById('container').style.backgroundColor = 'green'
-        }
-
-        function setBackRed() {
-            document.getElementById('container').style.backgroundColor = 'red'
-
-        }
-    </script>
-
-    <!-- setProperAdj-->
-    <!-- getProperAdj-->
-    <!-- getProperAdj-->
-
-
 </head>
-<div id="container">
-    <button onclick="setBackRed()"> RED</button>
-    <a href="#" class="myButton" onclick="setBackGreen()">GREEN</a>
-</div>
 
 <body>
+<div id="container">
 
+</div>
+<button onclick="setBackRed()"> RED</button>
+<a href="#" class="myButton" onclick="setBackGreen()">GREEN</a>
+<a href="#" class="myButton" onclick="showAlertMessage()">SHOW ALERT MESSAGE</a>
+<a href="#" class="myButton" onclick="showInnerMessage()">SHOW INNER MESSAGE</a>
+<a href="#" class="myButton" onclick="showConsoleMessage()">SHOW CONSOLE MESSAGE</a>
 </body>
 </html>
